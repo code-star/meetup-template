@@ -1,3 +1,8 @@
 module.exports = {
-  basePath: '/meetup-template'
+  basePath: "/meetup-template",
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
 };

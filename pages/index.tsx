@@ -6,11 +6,19 @@ import {
   LanguageSwitcher,
   // Trans
 } from "next-export-i18n";
+import Image from "next/image";
+
 const IndexPage = () => {
   const { t } = useTranslation("common");
 
   return (
     <Layout title={t("abstract.title")}>
+      <Image
+        src="/assets/ordina_ahead.png"
+        alt="Ordina - Ahead of Change"
+        width="405"
+        height="205"
+      />
       <h1>{t("abstract.title")}</h1>
       <p>{t("abstract.text")}</p>
       <a href={t("signUpUrl")}>{t("abstract.buttonLabel")}</a>
