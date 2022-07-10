@@ -5,9 +5,13 @@
 1. Fork this repo in repo with the name you want as url prefix. E.g. meetup-template will be become https://code-star.github.io/meetup-template.
 2. Enable Pages hosting under Settings > Pages. Set source to gh-pages.
 3. Modify text and links in public/locales/nl/common.json
-4. Test locally (see commands below)
-5. On push to Github, build will be done automatically with Github Actions
-6. (Not needed?) Add an Access token under Settings > Secrets > Actions
+4. Update basePath in next.config.js
+5. Test locally (see commands below)
+6. On push to Github, build will be done automatically with Github Actions
+
+Not needed?
+
+1. (Not needed?) Add an Access token under Settings > Secrets > Actions
 
 Commands:
 
