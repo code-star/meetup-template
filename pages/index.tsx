@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
 import { useTranslation, Trans } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+// import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const IndexPage = () => {
   const { t } = useTranslation("common");
@@ -39,10 +39,10 @@ const IndexPage = () => {
   );
 };
 
-export const getStaticProps = async ({ locale }) => ({
-  props: {
-    ...(await serverSideTranslations(locale, ["common"])),
-  },
-});
+// export const getStaticProps = async ({ locale }) => ({
+//   props: {
+//     ...(await serverSideTranslations(locale, ["common"])),
+//   },
+// });
 
 export default IndexPage;
