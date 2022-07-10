@@ -15,8 +15,8 @@ Not needed?
 
 Commands:
 
-- develop: `npm run dev`
-- build: `npm run build` & `npm start`
+- develop: `npm run dev` (open http://localhost:3000/meetup-template)
+- build: `npm run build` & `serve out/` (will host on http://localhost:3000, but basePath won't be resolved so assets are not loaded)
 
 # TODO
 
