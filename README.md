@@ -1,4 +1,18 @@
-# TypeScript Next.js example
+# Meetup Template
+
+## Technical Manual
+
+1. Fork this repo in repo with the name you want as url prefix. E.g. meetup-template will be become https://code-star.github.io/meetup-template.
+2. Modify text and links in public/locales/nl/common.json
+3. Test locally (see commands below)
+4. On push to Github, build will be done automatically with Github Actions
+
+Commands:
+
+- develop: `npm run dev`
+- build: `npm run build` & `npm start`
+
+# REMOVE BELOW
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
 
