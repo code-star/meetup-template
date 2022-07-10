@@ -12,6 +12,11 @@
   "motivation": {
     "title": "Waarom deelnemen aan deze workshop?",
     "list": "<0>Ontdek...</0><1>Ontmoet...</1><2>Laat je...</2>",
+    "list2": {
+      "line1": "Ontdek...",
+      "line2": "Ontmoet...",
+      "line3": "Laat je..."
+    },
     "buttonLabel": "Meer info en aanmelden"
   }
 }

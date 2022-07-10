@@ -3,14 +3,23 @@
 ## Technical Manual
 
 1. Fork this repo in repo with the name you want as url prefix. E.g. meetup-template will be become https://code-star.github.io/meetup-template.
-2. Modify text and links in public/locales/nl/common.json
-3. Test locally (see commands below)
-4. On push to Github, build will be done automatically with Github Actions
+2. Enable Pages hosting under Settings > Pages. Set source to gh-pages.
+3. Modify text and links in public/locales/nl/common.json
+4. Test locally (see commands below)
+5. On push to Github, build will be done automatically with Github Actions
+6. (Not needed?) Add an Access token under Settings > Secrets > Actions
 
 Commands:
 
 - develop: `npm run dev`
 - build: `npm run build` & `npm start`
+
+# TODO
+
+- Static building with i18n
+- Ordina favicon
+- Styling
+- Is URL shape acceptable?
 
 # REMOVE BELOW
 
