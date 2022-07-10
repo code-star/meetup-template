@@ -1,0 +1,17 @@
+{
+  "signUpUrl": "https://ordina.nl",
+  "abstract": {
+    "title": "Weten hoe realtime data jouw organisatie vooruit kan helpen?",
+    "text": "Schrijf je in voor de aankomende IoT data workshops op de IoT Academy op de RDM in Rotterdam.",
+    "buttonLabel": "Ik kom naar de IoT Academy workshop"
+  },
+  "location": {
+    "name": "IoT Academy",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.9856446318217!2d4.416900952061675!3d51.89772607960147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c43500f506db83%3A0x8048b5ec7d85ab3b!2sIoT%20Academy!5e0!3m2!1snl!2snl!4v1657443059115!5m2!1snl!2snl"
+  },
+  "motivation": {
+    "title": "Waarom deelnemen aan deze workshop?",
+    "list": "<0>Ontdek...</0><1>Ontmoet...</1><2>Laat je...</2>",
+    "buttonLabel": "Meer info en aanmelden"
+  }
+}
