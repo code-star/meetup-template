@@ -7,21 +7,23 @@ import {
   // Trans
 } from "next-export-i18n";
 import Image from "next/image";
+import logoImg from "../public/assets/ordina_ahead.png";
 
 const IndexPage = () => {
   const { t } = useTranslation("common");
-
   return (
     <Layout title={t("abstract.title")}>
       <Image
-        src="/assets/ordina_ahead.png"
+        src={logoImg}
         alt="Ordina - Ahead of Change"
         width="405"
         height="205"
       />
       <h1>{t("abstract.title")}</h1>
       <p>{t("abstract.text")}</p>
-      <a href={t("signUpUrl")}>{t("abstract.buttonLabel")}</a>
+      <a className="button" href={t("signUpUrl")}>
+        {t("abstract.buttonLabel")}
+      </a>
       {/* <p>
         <Link href="/about">
           <a>About</a>
@@ -33,7 +35,7 @@ const IndexPage = () => {
         style={{ border: 0, width: "calc(100vw - 20px)" }}
         allowFullScreen
         loading="lazy"
-        // referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <h2>{t("motivation.title")}</h2>
       <ul>
