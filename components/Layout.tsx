@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import Link from "next/link";
 import Head from "next/head";
-// import fav from "../public/assets/favicon.png";
+import configJson from "../config.json";
 
 type Props = {
   children?: ReactNode;
@@ -20,7 +20,8 @@ const Layout = ({ children, title = "Home" }: Props) => (
       /> */}
       <link
         rel="icon"
-        href="meetup-template/assets/favicon.png"
+        // href="meetup-template/assets/favicon.png"
+        href={`${configJson.basePath}/assets/favicon.png`}
         // href="public/assets/favicon.png"
       />
       <link

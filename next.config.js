@@ -1,5 +1,7 @@
+const configJson = require("./config.json");
+
 module.exports = {
-  basePath: "/meetup-template",
+  basePath: configJson.basePath,
   experimental: {
     images: {
       unoptimized: true,
